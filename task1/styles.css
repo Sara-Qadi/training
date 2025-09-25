@@ -1,3 +1,9 @@
+.flex-center{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -29,9 +35,6 @@ body {
   height: 36px;
   background: #f1f3f5;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: background 0.2s;
 }
 
@@ -182,7 +185,6 @@ body {
   background: #0088dd;
   color: white;
   border: none;
-  padding: 12px 20px;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
@@ -204,9 +206,7 @@ body {
 }
 
 .icon-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background: #006db1; 
   border-radius: 4px;   
   padding: 4px 8px;  
@@ -247,9 +247,6 @@ height: 100%;
   width: 32px;
   height: 32px;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -369,23 +366,16 @@ align-items: center;
   border-radius: 6px;
 }
 
-.company-logo img{
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.company-logo img { 
+    width: 40px; height: 40px; 
+      border-radius: 8px;
+}
+.company-logo2 img { 
+    width: 35px; height: 35px; 
+      border-radius: 8px;
 }
 
-.company-logo2 img{
-  width: 35px;
-  height: 35px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .application-details,
 .interview-details {
   flex: 1;
@@ -417,12 +407,6 @@ align-items: center;
 }
 
 
-.interview-status {
-display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .status {
   display: block;
   font-size: 14px;
@@ -440,11 +424,11 @@ display: flex;
 .view-details-btn {
   background: transparent;
   color: #0066cc;
-
   padding: 8px 12px;
 border: none;
   font-size: 16px;
   cursor: pointer;
+  
 }
 
 .more-btn {
@@ -464,11 +448,10 @@ position: relative;
 }
 
 .show-more-btn {
-      position: absolute;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 20px; 
-  left: 50%;
   background: transparent;
   border: none;
   color: #0066cc;
@@ -584,7 +567,6 @@ position: relative;
   justify-content: center;
   font-weight: bold;
   font-size: 20px;
-  align-self: flex-start;
 }
 
 .job-info {
@@ -623,9 +605,7 @@ position: relative;
 }
 
 .slider-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   gap: 15px;
   font-size: 14px;
   color: #666;
@@ -638,9 +618,6 @@ position: relative;
   height: 26px;
   border-radius: 50%;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #666;
   transition: all 0.2s ease;
 }
@@ -654,6 +631,7 @@ font-weight: 550;
   border-color: #ccc;
 }
 .right-sidebar {
+    
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -733,9 +711,6 @@ border-radius: 8px;
 }
 
 .action-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 32px;
   height: 32px;
 }
@@ -751,8 +726,6 @@ border-radius: 8px;
 .member-item,
 .job-item {
   display: flex;
-  align-items: center;
-  align-items: flex-start;
   gap: 12px;
       border-bottom: 1px solid #ddd;
         padding: 4px 0;
@@ -760,7 +733,6 @@ border-radius: 8px;
 }
 .article-item {
   display: flex;
-  align-items: center;
     flex-direction: column;
   align-items: flex-start;
       border-bottom: 1px solid #ddd;
@@ -858,12 +830,12 @@ margin-top: 20px;
   .action-grid {
     grid-template-columns: 1fr;
   }
-.application-status, .interview-status {
-    align-items: center; 
-    transform: translateX(0); 
-  }
-  
-  .application-item,
+
+  .application-status, .interview-status { 
+    align-items: center; transform: translateX(0); 
+}
+
+.application-item,
   .interview-item {
     flex-wrap: wrap;
     gap: 10px;

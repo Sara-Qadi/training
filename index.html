@@ -12,8 +12,9 @@
 
    <header class="navbar">
     <div class="logo">
-    <img src="assets/harri.png" alt="harri logo"></div>
-    </div>
+    <img src="assets/harri.png" alt="harri logo">
+  </div>
+  
     <nav class="nav-icons">
       <a class="flex-center" href="#"><img src="assets/icons/information.png" alt="Info"></a>
       <a class="flex-center" href="#"><img src="assets/icons/network.png" alt="Network"></a>
@@ -25,13 +26,17 @@
         <img src="assets/profile.jpg" alt="Profile Picture">
         <span>Jerrard</span>
         <span class="arrow"><img src="assets/icons/arrow.png" alt="arrow"></span>
-      </div>
+    
     </nav>
+      </div>
+        <div class="hamburger">
+    ☰
+  </div>
   </header>
 
   <main class="dashboard">
     <div class="dashboard-container">
-      <div class="left-column">
+      <div class="main-column">
         <section class="profile-card">
           <div class="cover-photo">
             <img src="assets/cover.jpg" alt="Cover Photo">
@@ -59,10 +64,14 @@
          
             <p class="bio">Managed multiple projects from concept to completion. Work well under pressure and highly experienced at leading and collaborating with sizable teams of experts, and contractors. Solid understanding of efficiency, budgets, and value-for-money in design, as well as business... <a href="#" class="see-more">See more</a></p>
             
-            <div class="profile-actions">
-              <button class="btn-primary">   <span class="btn-text">Improve your profile</span> <div class="icon-box flex-center"><img src="assets/icons/arrow-down.png" alt="arrow icon" ></div> </button>
-              <button class="btn-secondary"><img src="assets/icons/share.png" alt="share icon" > Share <img src="assets/icons/arrow2.png" alt="arrow icon" ></button>
-            </div>
+              <div class="profile-actions">
+                <div class="btn-primary">
+                  <button type="button" class="btn btn--solid btn-text">Improve your profile</button>
+                  <button type="button" class="btn btn--ghost icon-box flex-center" aria-label="More options"><img src="assets/icons/arrow-down.png" alt="arrow icon" ></button>
+                </div>
+                <button class="btn btn--outline btn-secondary"><img src="assets/icons/share.png" alt="share icon" > Share <img src="assets/icons/arrow2.png" alt="arrow icon" ></button>
+              </div>
+            
             
      
           </div>
@@ -77,10 +86,13 @@
               <button class="tab2">Screening questions</button>
               <button class="tab3">Training courses</button>
             </div>
+              <button class="filter-button">
+    <span>All</span> <span class="arrow"><img src="assets/icons/arrow.png" alt="arrow"></span>
+  </button>
           </div>
           
-          <div class="applications-list">
-            <div class="application-item">
+          <ul class="applications-list">
+            <li class="application-item">
               <div class="company-logo"> <img src="assets/h.png" alt="company-logo"></div>
               <div class="application-details">
                 <h3>Designer</h3>
@@ -90,11 +102,11 @@
                 <span class="status confirmed">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-job-btn">View job</button>
-              <button class="more-btn">⋯</button>
-            </div>
+              <button class="btn btn--ghost view-job-btn">View Job</button>
+              <button class="btn btn--ghost more-btn">⋯</button>
+            </li>
             
-            <div class="application-item">
+            <li class="application-item">
               <div class="company-logo"> <img src="assets/h.png" alt="company-logo"></div>
               <div class="application-details">
                 <h3>Designer</h3>
@@ -104,11 +116,11 @@
                 <span class="status confirmed">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-job-btn">View job</button>
-              <button class="more-btn">⋯</button>
-            </div>
+              <button class="btn btn--ghost view-job-btn">View Job</button>
+              <button class="btn btn--ghost more-btn">⋯</button>
+            </li>
             
-            <div class="application-item">
+            <li class="application-item">
               <div class="company-logo"> <img src="assets/h.png" alt="company-logo"></div>
               <div class="application-details">
                 <h3>Designer</h3>
@@ -118,11 +130,11 @@
                 <span class="status confirmed">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-job-btn">View job</button>
-              <button class="more-btn">⋯</button>
-            </div>
+              <button class="btn btn--ghost view-job-btn">View Job</button>
+              <button class="btn btn--ghost more-btn">⋯</button>
+            </li>
             
-            <div class="application-item">
+            <li class="application-item">
               <div class="company-logo"> <img src="assets/h.png" alt="company-logo"></div>
               <div class="application-details">
                 <h3>Designer</h3>
@@ -132,11 +144,11 @@
                 <span class="status confirmed">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-job-btn">View job</button>
-              <button class="more-btn">⋯</button>
-            </div>
+              <button class="btn btn--ghost view-job-btn">View Job</button>
+              <button class="btn btn--ghost more-btn">⋯</button>
+            </li>
             
-            <div class="application-item">
+            <li class="application-item">
               <div class="company-logo"> <img src="assets/h.png" alt="company-logo"></div>
               <div class="application-details">
                 <h3>Designer</h3>
@@ -146,10 +158,10 @@
                 <span class="status confirmed">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-job-btn">View job</button>
-              <button class="more-btn">⋯</button>
-            </div>
-          </div>
+              <button class="btn btn--ghost view-job-btn">View Job</button>
+              <button class="btn btn--ghost more-btn">⋯</button>
+            </li>
+          </ul>
           
           <button class="show-more-btn">Show more <img src="assets/icons/side-arrow.png" alt="arrow icon" > </button>
         </section>
@@ -161,10 +173,13 @@
               <button class="tab active">Pending</button>
               <button class="tab">Confirmed</button>
             </div>
+                   <button class="filter-button">
+    <span>All</span> <span class="arrow"><img src="assets/icons/arrow.png" alt="arrow"></span>
+  </button>
           </div>
           
-          <div class="interviews-list">
-            <div class="interview-item">
+          <ul class="interviews-list">
+            <li class="interview-item">
               <div class="interview-date">
                 <span class="month">Mar</span>
                 <span class="day">24</span>
@@ -177,10 +192,10 @@
                 <span class="status pending">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-details-btn">View details</button>
-            </div>
+              <button class="btn btn--ghost view-details-btn">View details</button>
+            </li>
             
-            <div class="interview-item confirmed">
+            <li class="interview-item confirmed">
               <div class="interview-date1">
                 <span class="month">Mar</span>
                 <span class="day">25</span>
@@ -190,10 +205,10 @@
                 <p>Interview confirmed with Ahmad Maqboul</p>
               </div>
            
-              <button class="view-details-btn">View details</button>
-            </div>
+              <button class="btn btn--ghost view-details-btn">View details</button>
+            </li>
             
-            <div class="interview-item">
+            <li class="interview-item">
               <div class="interview-date">
                 <span class="month">Mar</span>
                 <span class="day">26</span>
@@ -206,9 +221,9 @@
                 <span class="status pending">Interview confirmed</span>
                 <span class="date">Apr 11, 2018</span>
               </div>
-              <button class="view-details-btn">View details</button>
-            </div>
-          </div>
+              <button class="btn btn--ghost view-details-btn">View details</button>
+            </li>
+          </ul>
         </section>
 
         <section class="job-suggestions">
@@ -225,7 +240,7 @@
                 <h3>Chapter Lead/ Senior Crew Member</h3>
                 
               </div>
-              <button class="apply-btn">Apply now</button>
+              <button class="btn btn--outline apply-btn">Apply now</button>
             </div>
             
             <div class="job-card">
@@ -235,7 +250,7 @@
                 <h3>Chapter Lead/ Senior Crew Member</h3>
              
               </div>
-              <button class="apply-btn">Apply now</button>
+              <button class="btn btn--outline apply-btn">Apply now</button>
             </div>
             
             <div class="job-card">
@@ -245,7 +260,7 @@
                 <h3>Chapter Lead/ Senior Crew Member</h3>
            
               </div>
-              <button class="apply-btn">Apply now</button>
+              <button class="btn btn--outline apply-btn">Apply now</button>
             </div>
           </div>
           
@@ -257,7 +272,7 @@
         </section>
       </div>
 
-      <div class="right-sidebar">
+      <div class="sidebar">
         <div class="profile-strength">
           <h3>Profile Strength</h3>
          <div class="progress-circle">

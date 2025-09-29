@@ -466,12 +466,6 @@ margin-left: 10px;
 }
 
 
-.company-logo2 img { 
-    display: inline-block;
-transform: scale(0.8);
-margin-inline-end: -10px;
-      border-radius: 8px;
-}
 
 
 .application-details,
@@ -665,7 +659,15 @@ position: relative;
   gap: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
-.company-logo {
+
+.company-logo2  { 
+    display: inline-block;
+transform: scale(0.8);
+margin-inline-end: -10px;
+      border-radius: 8px;
+      }
+
+.company-logo, .company-logo2 {
   flex: 0 0 44px;
   width: 44px;
   height: 44px;
@@ -678,7 +680,7 @@ position: relative;
   color: white;
 }
 
-.company-logo img {
+.company-logo img, .company-logo2 img {
   display: block;
   width: 80%;
   height: 80%;

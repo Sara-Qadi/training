@@ -379,20 +379,15 @@ height: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-bottom: 12px;
-
-}
-.section-header2 {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin-bottom: 18px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 12px; 
 
 }
+
 .section-header h2 {
   margin: 14px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   color: #333;
 
@@ -442,8 +437,12 @@ margin-left: 10px;
   background: #e7f3ff;
   color: #1290df;
   border: 1px solid #0088dd;
-   padding: 7px 18px;
 }
+.tab-pending {
+   padding: 7px 12px;
+}
+.tab-all {
+   padding: 7px 18px;}
 
 .list{
   display: flex;
